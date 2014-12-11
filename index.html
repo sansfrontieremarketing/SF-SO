@@ -13,13 +13,12 @@
 <meta name='robots' content='noindex,follow' />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
-    $.ajax({
-        url: 'http://www.installersmate.co.uk/',
-        success: function(data){
-            $('#myDynamicDiv').html(data); // Load data into a <div> as HTML
-            alert('The page was loaded!');
-        }
-    });
+$.get(
+    'http://www.corsproxy.com/' +
+    'installersmate.co.uk',
+    function(response) {
+        $("#myDynamicDiv").html(response);
+});
 </script>
 </head>
 <body class="home blog logged-in basic">
