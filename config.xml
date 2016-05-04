@@ -10,7 +10,7 @@ If you are a Gas Safe registered professional you can sign up today and start sa
 		<author href="" email="">
 
 		</author>
-		<preference name="phonegap-version" value="3.6.3" />
+		<preference name="phonegap-version" value="5.2.0" />
 		<preference name="orientation" value="default" />
 		<preference name="fullscreen" value="false" />
 		<preference name="target-device" value="universal" />
